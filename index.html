@@ -146,9 +146,12 @@
           <a href="#">Policy</a>
         </div>
         <div class="suscribe-footer">
-          <form action="submit">
-            <input type="email" />
-            <button type="submit">Go</button>
+          <form class="form" id="form" action="submit">
+            <input class="email" type="text" />
+            <button class="submit-email" type="submit">Go</button>
+            <!-- dont use id -->
+            <p class="empty-email-message"></p>
+            <p class="invalid-email-message"></p>
           </form>
         </div>
         <div class="copyright">Copyright 2020. All Rights Reserved</div>
@@ -160,5 +163,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </div>
     </footer>
+    <script src="/app.js"></script>
   </body>
 </html>
